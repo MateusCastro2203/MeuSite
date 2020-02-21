@@ -1,0 +1,136 @@
+body,
+html {
+    height: 100%;
+    background: rgb(29, 27, 27);
+}
+
+#navbar {
+    background-color: rgba(0, 0, 0, 0.582);
+    position: fixed;
+    width: 100%;
+    transition: top 0.3s;
+}
+
+#navbar a {
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    text-decoration: none;
+}
+
+#navbar a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+.parallax {
+    /* The image used */
+    background-image: url('./img/banner.jpg');
+    /* Full height */
+    height: 100%;
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.parallax h1 {
+    color: #fff;
+}
+
+.parallax h4 {
+    color: rgb(17, 157, 212);
+}
+
+.parallax span {
+    color: #00b8e4;
+    font-size: 40px;
+    font-weight: 100px;
+}
+
+#first {
+    position: absolute;
+    top: 40%;
+    left: 10%;
+}
+
+#profilePicture {
+    width: 25%;
+    height: 25%;
+    border-radius: 500px;
+}
+
+#about {
+    color: #fff;
+}
+
+.about-content {
+    margin-top: 7%;
+    font-family: "Lato", serif;
+}
+
+.about-content h2 {
+    margin: 5%;
+}
+
+.about-text {
+    color: #fff;
+    font-size: 2rem;
+    line-height: 2;
+    margin: 5% 0 7%;
+}
+
+.parallaxMedium {
+    /* The image used */
+    background-image: url('./img/bannerMediun.jpg');
+    /* Full height */
+    height: 35%;
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#work {
+    color: #fff;
+}
+
+.card {
+    background-color: transparent;
+}
+
+#titlecard {
+    color: #fff;
+}
+
+#textcard {
+    color: #fff;
+    font-size: 25px;
+    line-height: 2;
+    margin: 5% 0 7%;
+}
+
+.parallaxEnd {
+    /* The image used */
+    background-image: url('./img/bannerEnd.jpg');
+    /* Full height */
+    height: 35%;
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#call {
+    color: #fff;
+}
+
+#footer {
+    color: #fff;
+    font-size: 15px;
+}
